@@ -1,0 +1,113 @@
+/*Home page*/
+
+/*Header */
+.Navigation{
+    display: flex;
+    flex-direction: row;    
+}
+
+nav{    align-items: center;justify-content: space-between; border-bottom: 1px solid black;}
+.Logo{
+    width: 150px;
+    height: 80px;
+}
+.Navigation ul{
+    list-style: none;
+    justify-content: flex-end;
+   
+}
+
+a:link{text-decoration: none; color: black ;font-size: 20px;font-weight: 600;padding: 5px 10px; }
+a:link:hover{background: #ccc; border-radius: 10px;}
+
+.navi{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+/*Body*/
+
+
+/* Row Above*/
+.rowAbove{background: orange;height: 300px; display: flex;}
+.SoloImg{height: 250px;padding: 25px; padding-left: 250px; }
+
+.rowAbove .Info{align-items: center; }
+
+.rowAbove .Info h1{padding: 10px; margin-top: 50px; display: flex; align-items: center; padding-left: 200px; font-size: 35px;}
+.rowAbove .Info p{font-size: 20px; padding-left: 320px;}
+
+.rowAbove .Info button{margin-left: 330px;
+    padding: 5px 5px;
+    border-radius: 20px;
+    border: 1px solid black;font-size: 15px;}
+    .rowAbove .Info a{font-size: 20px; }
+
+/* Row Below*/ 
+.rowBelow{background: #fff;height: 300px;align-items: center; display: flex;}
+.rowBelow p{ padding-left: 180px; font-size: 20px;align-items: center;
+    font-family: "Playwrite MX Guides", 'cursive';
+    font-weight: 400;
+    font-style: normal; font-size: 40px; text-transform: capitalize;
+  
+}
+
+
+/*About page*/
+.row{display: flex; flex-direction: row;}
+.col{display: flex; flex-direction: column;}
+.about h1{font-size: 40px; text-align: center;text-decoration: underline; color: red;}
+.about h4{font-size: 30px;margin-left: 100px;}
+.about h5{font-size: 25px; padding-left: 20px; margin-top: 0px;}
+.about p{font-size: 20px;     padding-left: 60px;}
+
+.about .box{width: 200px; height: 280px; background: orangered; border-radius: 15px 50px; margin-top: 30px; padding: 10px;}
+.about img{width: 150px; height: 200px;border-radius: 45%;}
+
+
+/*Contact page*/
+.contact{padding: 50px 30px; height: 500px; }
+.contact h1{margin-left: 500px; font-size: 30px; color: red; text-decoration: underline;}
+
+.contact p{font-size: 20px; font-weight: 700;}
+
+.contact .location{margin-left: 50px;}
+.contact .gmail{margin-left: 50px;}
+.contact .linkedin{margin-left: 45px; color: black !important;}
+.contact .github{margin-left: 45px; color: black !important;}
+
+.contact h2{font-size: 100px; margin-top: 0px; margin-bottom: 0px; margin-left: 100px;
+    margin-right: 100px;   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.contact .bold{text-align: center;}
+.contact .info{background: #ccc; border-radius: 10px; padding: 50px;}
+
+/*Project page*/
+.project h1{text-align: center;font-size: 30px;text-decoration: underline; color: red;}
+
+.project ol{margin-top: 50px;}
+.project ol li{font-size: 20px}
+
+.project .info h2{margin-top: 50px;font-size: 30px;}
+.project .info p{font-size: 20px;}
+.project .info ul{margin-top: 10px;}
+.project .info ul li{font-size: 18px;}
+
+.project .web{height: 400px; background: #fab790;border-radius: 20px; margin-top: 20px; padding: 3px 31px;}
+.project .app{height: 400px; background: #9888f3;border-radius: 20px; margin-top: 20px; padding: 3px 31px;}
+.project .bot{height: 480px; background: #e98787;border-radius: 20px; margin-top: 20px; padding: 3px 31px;}
+.project .sensor{height: 450px; background: #f591cf;border-radius: 20px; margin-top: 20px; padding: 3px 31px;}
+
+
+/*Education page*/
+
+.education .name{height: 150px; background: #423f49;padding: 5px 10px;}
+.education .name h1{color: #e9c008;padding: 0px 10px;margin-top: 25px; font-size: 40px;}
+.education .name p{color: #fff; padding: 0px 30px;font-size: 25px;margin-top: 0px;}
+
+.education .edu{height: 350px; background: #f8cca8;padding: 15px 30px; margin-top: 30px;border-radius: 20px;}
+.education .edu h1{font-size: 30px;}
+.education .edu b{font-size: 20px;}
+.education .edu p{font-size: 18px;}
