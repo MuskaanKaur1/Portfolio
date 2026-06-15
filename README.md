@@ -1,4 +1,4 @@
-# Portfolio using Html,Css AND React.js
+# Portfolio 1 
 The folder named html contains Only HTML and CSS languages
 
 This is a portfolio website created to represent an individual and their professional background. It serves as a digital resume where personal and career details are displayed in a well-organized manner.
@@ -11,7 +11,7 @@ This is a portfolio website created to represent an individual and their profess
 
 Can also add more features like Skills, Experience, Achievements and Certificates
 
-# Portfolio Website
+# Portfolio 2
 The folder named react contains languages like react.js, tailwind CSS
 
 A modern and responsive developer portfolio built with React, TypeScript, Tailwind CSS, and Framer Motion. This portfolio showcases my projects, technical skills, and experience as a Full Stack Developer.
